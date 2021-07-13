@@ -1,6 +1,9 @@
-const { listActions: { INCLUDE }, listTypes: { ROLE } } = require('../constants.js');
+const {
+  listActions: { INCLUDE },
+  listTypes: { ROLE },
+} = require("../constants.js");
 
 module.exports = {
-	name: '+role',
-	run: ctx => [INCLUDE, ROLE, ctx.value]
+  name: "+role",
+  run: (ctx) => [INCLUDE, ROLE, ctx.value],
 };

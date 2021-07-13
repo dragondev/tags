@@ -1,4 +1,4 @@
 module.exports = {
-	name: 'uppercase',
-	run: ctx => ctx.value.toUpperCase()
+  name: "uppercase",
+  run: (ctx) => ctx.value.toUpperCase(),
 };

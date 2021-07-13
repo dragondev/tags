@@ -1,6 +1,8 @@
-const { tagTypes: { NODUPE } } = require('../constants');
+const {
+  tagTypes: { NODUPE },
+} = require("../constants");
 
 module.exports = {
-	name: 'nodupe',
-	run: () => [NODUPE]
+  name: "nodupe",
+  run: () => [NODUPE],
 };

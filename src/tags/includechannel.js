@@ -1,6 +1,9 @@
-const { listActions: { INCLUDE }, listTypes: { CHANNEL } } = require('../constants.js');
+const {
+  listActions: { INCLUDE },
+  listTypes: { CHANNEL },
+} = require("../constants.js");
 
 module.exports = {
-	name: '+channel',
-	run: ctx => [INCLUDE, CHANNEL, ctx.value]
+  name: "+channel",
+  run: (ctx) => [INCLUDE, CHANNEL, ctx.value],
 };
